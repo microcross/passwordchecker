@@ -11,10 +11,10 @@ You will need to install the following libraries:
 
 For a Mac:
 
-pip install requests
-pip install SpeechRecognition
-brew install portaudio
-pip install pyaudio
+pip install requests \n
+pip install SpeechRecognition \n
+brew install portaudio \n
+pip install pyaudio \n
 
 There are a number of known complications between SpeechRecognition and PyAudio. Info on the library and troubleshooting here: https://pypi.org/project/SpeechRecognition/
 
