@@ -16,7 +16,7 @@ def pwned_api_check(password):
 
 def request_api_data(query_char):
     # Provide password using SHA1 hash, only first 5 chars.
-    # Receives back a list of hashes & counts where first 5 matched (but only excludes first 5 char from string for K-Anonymity)
+    # Receives back a list of hashes & counts where first 5 matched (response string excludes first 5 char for K-Anonymity)
     url = 'https://api.pwnedpasswords.com/range/' + query_char
     response = requests.get(url)
     if response.status_code != 200:
