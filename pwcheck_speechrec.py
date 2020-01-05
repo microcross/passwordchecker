@@ -87,12 +87,12 @@ def recognize_speech(recognizer, microphone):
 
     return response
 
-# OPTIONAL SPEECH VERSION
+# OPTIONAL SPEECH VERSION INCLUDED
 # This version of the code allows the user choose between speech-to-text or manual entry
 # If manual, user can input as many passwords as they'd like to check
 # Their inputs are put into a file which is then read to extract and test each password iteratively
 # The file is deleted at the end of the program prevent exposed passwords
-# Or if they choose speech-to-text they can check one PW at a time (and see what the program thinks it hears)
+# Or if they choose speech-to-text they can check one PW at a time
 def main():
     print("\n**********************************************************************************************************************\n"
           "* Welcome to the password checker. You will be prompted to enter any password that you'd like to check against the   *\n"
